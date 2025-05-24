@@ -37,9 +37,6 @@ else:
     ballspeedx = -1
 ballspeedy = random.uniform(-2*math.pi,2*math.pi)/10
 
-for i in range(1000):
-    continue
-
 for i in range(3, 0, -1):
     screen.fill((0, 0, 0))
     pygame.draw.rect(screen, (255, 255, 255), (40, p1y, 10, 100))
